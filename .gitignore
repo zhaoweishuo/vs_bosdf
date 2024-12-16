@@ -1,4 +1,3 @@
-dataset/*
 .idea/
 .git/
 */__pycache__
