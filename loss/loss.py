@@ -57,7 +57,6 @@ class DF(nn.Module):
     def forward(self, pred, target):
 
         mse = self.mse(pred, target)
-        df = mse*-1
-        df = df+1
-        return df
+
+        return mse
 
